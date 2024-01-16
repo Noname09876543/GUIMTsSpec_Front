@@ -1,0 +1,39 @@
+.card {
+    padding: 8px;
+}
+.loadingBg {
+    z-index: 999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textStyle {
+    height:48px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin-bottom:12px;
+}
+.cardImage {
+    object-fit: contain;
+}
+.cardButton {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.deleteCardButton {
+    margin-top: 10px;
+    width: 100%;
+    background: red;
+    border: 2px solid red;
+}
+
+.deleteCardButton:hover {
+    margin-top: 10px;
+    width: 100%;
+    background: rgb(145, 2, 2);
+    border: 2px solid red;
+}

@@ -1,0 +1,104 @@
+body {
+    /* background-image: radial-gradient(circle, rgba(11, 94, 215, 0.1), rgba(11, 94, 215, 0.2), white); */
+    /* background-image: linear-gradient(rgba(11, 94, 215, 0.1), rgba(11, 94, 215, 0.2), white); */
+    background: rgba(11, 94, 215, 0.1);
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+input[type=checkbox]{
+    margin-left: 10px;
+    transform: scale(2);
+    width: 40px;
+}
+
+select{
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    background: white;
+}
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #0b5ed74d}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0D6EFD;
+    color: white;
+    text-align: center;
+}
+
+.ineactive_button{
+    background: lightgray;
+    border: gray;
+}
+
+.ineactive_button:hover{
+    background: lightgray;
+    border: gray;
+    cursor: auto;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px;
+    margin-top: -10px;
+    border-radius: 4px;
+}
+
+.img_choose_block {
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.img_choose_block img{
+    max-width: 400px;
+}
+
+.img_choose_block input{
+    margin-top: 10px;
+}
+
+.request_spec_button {
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.erMessage{
+    color: red;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.successMessage{
+    color: green;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
